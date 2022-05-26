@@ -2,12 +2,12 @@ Simple Vue wraper for wavesurfer.js
 
 ![alt text](https://github.com/SetasSan/vue_wavesurfer_player/blob/master/.github/Player.PNG?raw=true)
 
-## Usage
-```sh
-import type { WavesurferOptions } from "vue-wavesurfer-player/dist/components/WavesurferOptions";
 
 <a href="https://github.com/SetasSan/vue_wavesurfer_player/blob/master/vue_wavesurfer_player/src/App.vue" target="_blank">Example</a>
 
+## Usage
+```sh
+import type { WavesurferOptions } from "vue-wavesurfer-player/dist/components/WavesurferOptions";
 
 //import styles
 <style>
