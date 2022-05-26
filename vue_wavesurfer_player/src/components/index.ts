@@ -1,0 +1,1 @@
+export { default as Wavesurfer } from "./Wavesurfer.vue";
