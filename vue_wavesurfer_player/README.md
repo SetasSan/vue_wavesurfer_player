@@ -6,6 +6,8 @@ Simple Vue wraper for wavesurfer.js
 ```sh
 import type { WavesurferOptions } from "vue-wavesurfer-player/dist/components/WavesurferOptions";
 
+<a href="https://github.com/SetasSan/vue_wavesurfer_player/blob/master/vue_wavesurfer_player/src/App.vue" target="_blank">Example</a>
+
 
 //import styles
 <style>
