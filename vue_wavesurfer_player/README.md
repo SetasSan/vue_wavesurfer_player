@@ -1,6 +1,6 @@
 Simple Vue wraper for wavesurfer.js
 
-![alt text](https://github.com/SetasSan/vue_wavesurfer_player/.gihub/master/Player.png?raw=true)
+![alt text](https://github.com/SetasSan/vue_wavesurfer_player/blob/master/.github/Player.PNG?raw=true)
 
 ## Usage
 ```sh
