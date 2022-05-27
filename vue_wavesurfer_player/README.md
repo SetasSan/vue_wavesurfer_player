@@ -7,6 +7,15 @@ Simple Vue wraper for wavesurfer.js
 
 ## Usage
 ```sh
+//main.js
+import { createApp } from 'vue'
+import App from './App.vue'
+import WavesurferPlugin from './WavesurferPlugin';
+
+const app = createApp(App);
+app.use(WavesurferPlugin);
+app.mount('#app')
+
 import type { WavesurferOptions } from "vue-wavesurfer-player/dist/components/WavesurferOptions";
 
 //import styles
