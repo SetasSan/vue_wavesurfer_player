@@ -1,6 +1,6 @@
 Simple Vue wraper for wavesurfer.js
 
-![alt text](https://github.com/SetasSan/vue_wavesurfer_player/blob/master/.github/Player.PNG?raw=true)
+![alt text](https://github.com/SetasSan/vue_wavesurfer_player/blob/master/.github/Player.png?raw=true)
 
 
 <a href="https://github.com/SetasSan/vue_wavesurfer_player/blob/master/vue_wavesurfer_player/src/App.vue" target="_blank">Example</a>
