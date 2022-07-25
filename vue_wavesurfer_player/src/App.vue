@@ -48,10 +48,10 @@ export default defineComponent({
   <div class="players">
     <Wavesurfer
       class="wave-surfer-item"
-      :options="wavesurferOption1"
-      :showDuration="true"
+      :options="wavesurferOption1"      
       src="./public/3aabc29a-3259-4ec7-abd7-9118973b8a7b.wav"
-      effectName="Cick effect"      
+      effectName="Cick effect" 
+      :showDuration="true"     
     ></Wavesurfer>
     <Wavesurfer
       ref="playerRef"
