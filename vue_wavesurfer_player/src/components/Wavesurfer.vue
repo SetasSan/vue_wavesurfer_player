@@ -14,7 +14,7 @@ export default defineComponent({
     showDuration: {
       type:Boolean,
       required: false,
-      default: false
+      default: () => false,
     },
     effectName: String,
     srcBase64: String  
@@ -142,8 +142,7 @@ export default defineComponent({
     </div>
     <div
       class="wave-duration-value-container"
-      v-show="showDuration"
-    >
+      v-show="showDuration" >
       {{ duration }}
     </div>
   </div>
