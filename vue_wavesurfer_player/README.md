@@ -41,7 +41,6 @@ let options: WavesurferOptions = {
   :options="wavesurferOption1"
   src="./../soundEffect.wav"
   effectName="Cick effect"
-  :showDuration="true"
 ></Wavesurfer>
 
 
@@ -50,7 +49,6 @@ let options: WavesurferOptions = {
   class="wave-surfer-item"
   :options="wavesurferOption2"
   :srcBase64="fileAsBlob"
-  :showDuration="true"
   effectName="Cick effect 2"
 ></Wavesurfer>
 
@@ -62,7 +60,6 @@ like
   class="wave-surfer-item"
   :options="wavesurferOption2"
   :srcBase64="fileAsBlob"
-  :showDuration="true"
   effectName="Cick effect 2"
 ></Wavesurfer>
 
@@ -70,5 +67,4 @@ you can access functions like:
 this.$refs.playerRef.loadBlob(this.fileAsBlob2);
 this.$refs.playerRef.loadFile("your_file_url");
 this.$refs.playerRef.getDurationInMiliSeconds();
-this.$refs.playerRef.getDurationAsString();
 ```

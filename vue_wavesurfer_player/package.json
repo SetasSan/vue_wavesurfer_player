@@ -1,6 +1,6 @@
 {
     "name": "vue-wavesurfer-player",
-    "version": "0.0.10",
+    "version": "0.0.11n",
     "type": "module",
     "repository": {
         "type": "git",
@@ -23,8 +23,7 @@
         "build": "vite build",
         "preview": "vite preview --port 5050"
     },
-    "dependencies": {
-        "dayjs": "^1.11.4",
+    "dependencies": {        
         "vue": "^3.2.33",
         "wavesurfer.js": "^6.1.0"
     },

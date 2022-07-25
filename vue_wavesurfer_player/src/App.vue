@@ -1,8 +1,6 @@
 <script setup lang="ts">
 import { defineComponent } from "vue";
 import { WavesurferOptions } from "./components/WavesurferOptions";
-import * as dayjs from 'dayjs';
-import * as duration from 'dayjs/plugin/duration';
 </script>
 
 <script lang="ts">
@@ -33,11 +31,6 @@ export default defineComponent({
   methods:{
     loadNewBlob(){
       this.$refs.playerRef.loadBlob(this.fileAsBlob2);
-    },
-    getDuration(){
-      dayjs.extend(duration);
-      var value = dayjs.duration((this.$refs.playerRef.getDurationInMiliSeconds()), 'milliseconds');
-      console.log(value.format('mm:ss:SSS'));
     }
   }
 });
@@ -62,7 +55,6 @@ export default defineComponent({
       effectName="Cick effect 2"
     ></Wavesurfer>
     <button @click="loadNewBlob()">Load new blob</button>
-    <button @click="getDuration()">Print Duration In Consule</button>
   </div>
 </template>
 
